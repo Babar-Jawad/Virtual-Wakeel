@@ -1,0 +1,37 @@
+.login-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-divv
+{
+    height: 350px !important;
+}
+.img-divv img
+{
+    height: 100%;
+    width: 100%;
+    
+}
+.form-div
+{
+    height: 100%;
+}
+.checks
+{
+    display: flex;
+    flex-direction: row;
+}
+.btn-login
+{
+    background-color: #921110;
+    color: white;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.login-title
+{
+    font-size: 3rem;
+}

@@ -1,0 +1,61 @@
+.contact-divv
+{
+    height: 87vh;
+    background: url('../../images/loginpageimg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* filter: brightness(40%); */
+    /* opacity: 0.7; */
+    color: white;
+}
+.contact-divv h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2.5rem
+}
+.cont-cont
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-contact {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 50%;
+    /* background-color: white; */
+
+}
+
+.text{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid white;
+    resize: none;
+    color: white;
+}
+.msg-btn
+{
+    background-color: #921110;
+    color: white;
+    /* filter: brightness(90%) !important; */
+}
+
+/* ***************   MEDIA QUERIES(SMALL DEVICES)   *************** */
+
+@media screen and (max-width: 600px){
+
+    .form-contact {
+
+        
+        width: 100%;
+        /* background-color: white; */
+    
+    }
+
+}

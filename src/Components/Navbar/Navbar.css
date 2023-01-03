@@ -1,0 +1,154 @@
+.container-fluid
+{
+    background-color:white;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.logo-img 
+{
+    height: 60px;
+    width: 60px;
+}
+.left-container
+{
+    display: flex;
+    align-items: center;
+}
+.Nav-title 
+{
+    margin-left: 9%;
+    margin-bottom: 0;
+    color: #921110;
+    font-family: "Lato", Sans-serif;
+    font-size: 1.2rem;
+    line-height: 21px;
+}
+.menu ul
+{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+.menu ul li 
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 0px 15px;
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+}
+.icons-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+}
+.icons-div:hover 
+{
+    cursor: pointer;
+    color: #921110;
+}
+.list 
+{
+    text-decoration: none;
+    color: black;
+}
+.list::after
+{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #921110;
+    transition: width .2s;
+
+}
+.list:hover
+{
+    color: #921110;
+}
+.list:hover::after
+{
+    width: 100%;
+}
+
+.login-btn
+{
+    border: 1px solid #921110;
+}
+.login-btn:hover
+{
+    background-color: #921110;
+    color: white;
+}
+.icon
+{
+    margin-right: 4px;
+}
+.user-link
+{
+    text-decoration: none;
+    color: #921110;
+}
+.user-link:hover
+{
+    color: white;
+} 
+.user-link2
+{
+    text-decoration: none;
+    color: white;
+} 
+.user-link2:hover
+{
+    color:#921110;
+} 
+.register-btn 
+{
+    margin: 0 0.5rem 0 0.1rem;
+    background-color: #921110;
+    color: white;
+}
+.register-btn:hover
+{
+    color: #921110;
+}
+
+/* .login-btn 
+{
+    margin-right: 0.2rem;
+    border: 1px solid #921110;
+    color: #921110;
+}
+.login-btn:hover 
+{
+   
+    background-color: #921110;
+    color: white;
+}
+.icon:hover
+{
+    color: white;
+}
+.register-btn 
+{
+    margin: 0 0.5rem 0 0.1rem;
+    background-color: #921110;
+    color: white;
+}
+.user-link
+{
+    text-decoration: none;
+    color: #921110;
+} */
+
+
+
+

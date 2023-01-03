@@ -1,0 +1,77 @@
+.about-cont
+{
+    padding: 2rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    color: white;
+    padding: 5rem 0 5rem 0 !important;
+}
+.about-cont h4
+{
+    text-transform:uppercase;
+    margin-bottom: 1.5rem;
+}
+.about-cont p
+{
+    max-width: 50%;
+}
+.core-values h3
+{
+    padding: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px !important;
+}
+.cards
+{
+    justify-content: center;
+    align-items: center;
+    padding: 20px !important;
+}
+.card
+{
+    background: url('../../images/bg-servi.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* filter: brightness(50%); */
+    /* height: 300px; */
+    /* width: 300px; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+}
+.card h6
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem;
+}
+.card p
+{
+    text-align: center;
+
+}
+
+.about-img
+{
+    height: 50px;
+    width: 50px;
+    
+}
+
+
+@media screen and (max-width: 600px){
+
+    .about-cont p
+    {
+        max-width: 80%;
+    }
+}

@@ -1,0 +1,30 @@
+.courts-cont
+{
+    background-color: #f6f3f3;
+    padding: 3.5rem 0 3.5rem 0;
+}
+.courts-cont h2
+{
+    margin: 1rem 0 1.5rem 0;
+}
+.line-div
+{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+.courts-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-div
+{
+    padding: 1rem;
+}
+.img-div h4
+{
+    /* color: black; */
+    margin: 0.9rem 0 0.5rem 0;
+
+}

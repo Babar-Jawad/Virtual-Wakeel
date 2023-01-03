@@ -1,0 +1,19 @@
+.body-content-container
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem 1rem 3.5rem 1rem;
+}
+
+.body-content-container h2
+{
+    margin-bottom: 1.5rem;
+}
+.body-content-container p 
+{
+    text-align: center;
+    max-width: 70%;
+}

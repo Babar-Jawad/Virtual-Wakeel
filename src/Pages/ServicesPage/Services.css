@@ -1,0 +1,39 @@
+
+.service-heading
+{
+    text-transform: uppercase;
+    color: #921110;
+}
+.service-img-div
+{
+    height: 250px !important;
+    /* margin-left: 1rem; */
+    padding: 0 !important;
+}
+.service-img-div img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.ser-card-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem !important;
+}
+.ser-detail-div
+{
+    padding: 2rem !important;
+    height: 250px !important;
+    overflow: scroll;
+}
+.ser-detail-div::-webkit-scrollbar{
+    display: none;
+  }
+.ser-detail-div h4
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
