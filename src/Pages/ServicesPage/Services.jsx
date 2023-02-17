@@ -9,6 +9,7 @@ import img3 from "../../images/service-img-3.jpg";
 import img4 from "../../images/service-img-4.jpg";
 import img5 from "../../images/service-img5.jpg";
 import img6 from "../../images/service-img6.jpg";
+import Footer from "../../Components/Footer/Footer";
 
 const Services = () => {
   useEffect(() => {
@@ -100,6 +101,7 @@ const Services = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -10,15 +10,35 @@
     overflow-x: scroll;
     overflow: infinite;
     padding: 30px;
+    width: 60%;
 }
 .container::-webkit-scrollbar {
     display: none;
 }
 .container img
 {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 0% 5% 0% 5%;
     border-radius: 40px;
+    animation: scroll 20s linear infinite;
 }
+
+
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+
+/* @media screen and (min-width: 900px) {
+    .container {
+        width: 85%;
+    }
+  } */
 

@@ -8,6 +8,7 @@ import img5 from "../../images/serv1.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Footer from "../../Components/Footer/Footer";
 
 const About = () => {
   useEffect(() => {
@@ -76,6 +77,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
