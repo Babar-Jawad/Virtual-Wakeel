@@ -15,7 +15,9 @@ const Navbar = ({ menuShown, handleMenuShown }) => {
     <div className="container-fluid p-2 py-3">
       <div className="row nav-container m-0">
         <div className="col-9 col-md-2 left-container p-1">
-          <img src={logo} alt="" className="logo-img" />
+          <Link to="/" onClick={() => setSelected(1)}>
+            <img src={logo} alt="" className="logo-img" />
+          </Link>
           <h3 className="Nav-title">Virtual Wakeel</h3>
         </div>
         <div className="menu d-none d-md-block col-md-7 p-0">

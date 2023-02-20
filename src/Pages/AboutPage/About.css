@@ -47,6 +47,12 @@
     align-items: center;
     padding: 2rem;
     color: white;
+    box-shadow: 2px 2px 10px brown;
+    transition: 0.5s all ease-in-out !important;
+}
+.card:hover
+{
+    transform: scale(0.9) !important;
 }
 .card h6
 {
